@@ -1,0 +1,1 @@
+global.DOMMatrix = class DOMMatrix {}; global.ImageData = class ImageData {}; global.Path2D = class Path2D {}; import('pdfjs-dist/legacy/build/pdf.mjs').then(() => console.log('success')).catch(console.error);
